@@ -6,10 +6,19 @@
   <title>prompt, alert, calculate</title>
 
   <!-- load the styles -->
+  <link rel="stylesheet" href="style.css">
 
   <!-- load the shared data -->
+  <script src="./scripts/shared-variables.js"></script>
 
   <!-- load the handler scripts -->
+  <script src="./scripts/handlers/add.js"></script>
+  <script src="./scripts/handlers/divide.js"></script>
+  <script src="./scripts/handlers/instructions.js"></script>
+  <script src="./scripts/handlers/last-result-display.js"></script>
+  <script src="./scripts/handlers/last-result-reset.js"></script>
+  <script src="./scripts/handlers/multiply.js"></script>
+  <script src="./scripts/handlers/subtract.js"></script>
 
 
   <!-- Leave this here!  It renders the review buttons  -->
@@ -17,6 +26,22 @@
 
 </head>
 
-<body></body>
+<body>
+
+
+</body>
+<div id="info">
+  <button id="information" onclick="instructionsHandler()">Info</button>
+</div>
+<section class="operators-buttons">
+  <button onclick="addHandler()">+</button>
+  <button onclick="divideHandler()">-</button>
+  <button onclick="multiplyHandler()">x</button>
+  <button onclick="subtractHandler()">/</button>
+</section>
+<section class="display-reset">
+    <button onclick="displayLastResultHandler()">Diplay</button>
+    <button onclick="resetLastResultHandler()">Reset</button>
+</section>
 
 </html>
