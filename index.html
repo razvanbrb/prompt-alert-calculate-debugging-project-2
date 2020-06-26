@@ -6,7 +6,7 @@
   <title>prompt, alert, calculate</title>
 
   <!-- load the styles -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 
   <!-- load the shared data -->
   <script src="./scripts/shared-variables.js"></script>
@@ -27,21 +27,20 @@
 </head>
 
 <body>
-
-
+  <main>
+  <div>
+    <button id="information" onclick="instructionsHandler()">Info</button>
+  </div>
+  <section class="operators-buttons">
+    <button onclick="addHandler()">+</button>
+    <button onclick="divideHandler()">-</button>
+    <button onclick="multiplyHandler()">x</button>
+    <button onclick="subtractHandler()">/</button>
+  </section>
+  <section class="display-reset">
+      <button onclick="displayLastResultHandler()">Display</button>
+      <button onclick="resetLastResultHandler()">Reset</button>
+  </section>
+</main>
 </body>
-<div id="info">
-  <button id="information" onclick="instructionsHandler()">Info</button>
-</div>
-<section class="operators-buttons">
-  <button onclick="addHandler()">+</button>
-  <button onclick="divideHandler()">-</button>
-  <button onclick="multiplyHandler()">x</button>
-  <button onclick="subtractHandler()">/</button>
-</section>
-<section class="display-reset">
-    <button onclick="displayLastResultHandler()">Diplay</button>
-    <button onclick="resetLastResultHandler()">Reset</button>
-</section>
-
 </html>
