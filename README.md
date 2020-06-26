@@ -21,10 +21,10 @@ On the page there is applying html-tags and css-style. Page make transform displ
 ## Steps of development
 1. Add HTML
 2. Add CSS
-3. Create instructions button
+3. Create info button
 4. Create add button 
-5. Create divide button
+5. Create subtract button
 6. Create multiply button
-7. Create substract button
+7. Create divide button
 8. Create display button
 9. Create reset button

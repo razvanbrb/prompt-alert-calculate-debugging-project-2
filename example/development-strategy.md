@@ -1,6 +1,6 @@
 # Development Strategy
 
-> `Debugging-project-week-2`
+> `Debugging-project-calculator-week-2`
 
 - This project is about development a simple calculate  with user-input functions in `Javascript` and with applying html, css,  incremental-development, adding git-branches per every step of dev-strategy, merging by pull-request and closes issues with colaborating of 2 students. 
 - This project would interest for novice students of web-development because there is example of simple functions in `Javascript`,  applying colaboration and incremental-development.
@@ -21,7 +21,7 @@ __A User can see my initial repository and live demo__
 
 ## 1. HTML
 
-__As visitor I expect see clickable buttons on the page with clearly names__
+__As visitor I expect see clickable buttons on the page with information and operators buttons so that as a user I can calculate two numbers__
 
 ### Repo
 
@@ -29,7 +29,7 @@ developed on a branch called `html` by `Razvan`
 
 ### What change?
 
-- Add 6 buttons with names
+- Add  buttons with names
 - Add property `onclick` to each of buttons
 - Add links to functions JS and links to files `.js`
 - Add link to file `.css`
@@ -47,101 +47,92 @@ developed on a branch called `css` by `Razvan`
 
 ### What change?
 
-- Add `display:flex` property
-- Add `flex-direction` property to be column
-- Add `align-items`  property to  in center
-- Add a `margin` property
+
 
 
 ----
 
-## 3. Button 1 "Confirm ending"
+## 3. Button "Add"
 
-__As visitor I expect see button which confirm the ending of sentence or word I entered__
+__As visitor I expect see button which__
 
 ### Repo
 
-developed on a branch called `01-confirm-ending` by `Olga`
+developed on a branch called `01-add` by `Razvan`
 
 ### What change?
 
-- Add functions in js which confirm the ending of sentence
-- Add consol.logs for dev
+- 
+- 
+----
+
+## 4. Button  "Substract"
+
+__As visitor I expect see the button when__
+
+### Repo
+
+developed on a branch called `02-substract` by `Razvan`
+
+### What change?
+
+- 
+- 
 
 ----
 
-## 4. Button 2 "Convert to celsius"
+## 5. Button  "Multiply"
 
-__As visitor I expect see the button when after click convert temp in Fahrenheit to Celcius__
+__As visitor I expect see the button that__
 
 ### Repo
 
-developed on a branch called `02-convert-to-celcius` by `Olga`
+developed on a branch called `03-multiply` by `Olga`
 
 ### What change?
 
-- Add functions in js which convert temp in Fahrenheit to Celcius
-- Add consol.logs for dev
+
 
 ----
 
-## 5. Button 3 "Convert to fahrenheit"
+## 6. Button "Divide"
 
-__As visitor I expect see the button when after click convert temp in Celcius to Fahrenheit__
+__As visitor I expect see a button that__
 
 ### Repo
 
-developed on a branch called `03-convert-to-fahrenheit` by `Olga`
+developed on a branch called `04-divide` by `Olga`
 
 ### What change?
 
-- Add functions in js which convert temp in Celcius to Fahrenheit 
-- Add consol.logs for dev
+
 
 ----
 
-## 6. Button 4 "Find longest word length"
+## 7. Button "Display"
 
-__As visitor I expect see a button that finds the longest word length in a sentence__
-
-### Repo
-
-developed on a branch called `04-find-longest-word` by `Razvan`
-
-### What change?
-
-- Add functions in js which finds the longest word length
-- Add consol.logs for dev
-
-----
-
-## 7. Button 5 "Repeat string num times"
-
-__As visitor I expect see a button for repeating a string how many times the user wants__
+__As visitor I expect see a button for displaying the result__
 
 ### Repo
 
-developed on a branch called `05-repeat-string` by `Razvan`
+developed on a branch called `05-display` by `Olga`
 
 ### What change?
 
-- Add functions in js which repeat the string how many times the user wants to repeat
-- Add consol.logs for dev
 
 ----
 
 ## 8. Button 6 "Reverse-a-string"
 
-__As visitor I expect see a button that revers a string when the user types a text__
+__As visitor I expect see a button that__
 
 ### Repo
 
-developed on a branch called `06-reverse-a-string` by `Razvan`
+developed on a branch called `06-reset` by `Olga`
 
 ### What change?
 
-- Add functions in js which reverse a string
-- Add consol.logs for dev
+
 
 ----
 
