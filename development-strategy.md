@@ -47,6 +47,8 @@ developed on a branch called `css` by `Razvan`
 
 ### What change?
 
+- Add css properties for buttons
+- Add margin property  the buttons
 
 
 
