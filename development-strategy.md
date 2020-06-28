@@ -70,7 +70,7 @@ developed on a branch called `add` by `Razvan`
 
 ## 4. Button  "Substract"
 
-__As visitor I expect see the button when__
+__As visitor I expect have a button that can subtract two numbers__
 
 ### Repo
 
@@ -78,8 +78,7 @@ developed on a branch called `02-substract` by `Razvan`
 
 ### What change?
 
-- 
-- 
+- Create a function substracthadler so that the user can substract 2 numbers
 
 ----
 
