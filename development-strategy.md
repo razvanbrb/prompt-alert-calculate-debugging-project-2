@@ -47,6 +47,8 @@ developed on a branch called `css` by `Razvan`
 
 ### What change?
 
+- Add css properties for buttons
+- Add margin property  the buttons
 
 
 
@@ -54,16 +56,16 @@ developed on a branch called `css` by `Razvan`
 
 ## 3. Button "Add"
 
-__As visitor I expect see button which__
+__As visitor I expect see button which I can have the sum of two numbers__
 
 ### Repo
 
-developed on a branch called `01-add` by `Razvan`
+developed on a branch called `add` by `Razvan`
 
 ### What change?
 
-- 
-- 
+- Create a function hadler so that the user can input 2 numbers
+
 ----
 
 ## 4. Button  "Substract"
