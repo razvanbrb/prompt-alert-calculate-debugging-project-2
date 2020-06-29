@@ -12,7 +12,7 @@ function multiply(x, y) {
   if (typeof x !== 'number') { throw new TypeError('x'); }
   if (typeof y !== 'number') { throw new TypeError('y'); }
 
-  const result = _;
+  const result = x * y;
 
   if (typeof result !== 'number') { throw new TypeError('result'); }
   return result;
@@ -83,9 +83,16 @@ function multiplyHandler() {
 
   // read a number from the user
 
+  const inputMult1= prompt('Please enter first number for multiply');
+  const numMult1 =  Number(inputMult1);
+
+  const inputMult2= prompt('Please enter second number for multiply');
+  const numMult2 = Number(inputMult2);
 
   // multiply the last result by the user's number and reassign lastResult
-  _;
+  lastResult = multiply(numMult1, numMult2);
+  
+  
   console.log('lastResult (after):', typeof lastResult, '\n', lastResult);
 
   alert(`the new result is: ${lastResult}`);
