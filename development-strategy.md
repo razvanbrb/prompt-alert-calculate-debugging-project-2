@@ -82,7 +82,7 @@ developed on a branch called `02-substract` by `Razvan`
 
 ## 5. Button  "Multiply"
 
-__As visitor I expect see the button that__
+__As visitor I expect see the button that that multiply numbers which I entered__
 
 ### Repo
 
@@ -96,7 +96,7 @@ developed on a branch called `03-multiply` by `Olga`
 
 ## 6. Button "Divide"
 
-__As visitor I expect see a button that__
+__As visitor I expect see a button that divide numbers which I entered__
 
 ### Repo
 
@@ -108,36 +108,22 @@ developed on a branch called `04-divide` by `Olga`
 
 ----
 
-## 7. Button "Display"
+## 7. Check the buttons "Display" and "Reset"
 
-__As visitor I expect see a button for displaying the result__
-
-### Repo
-
-developed on a branch called `05-display` by `Olga`
-
-### What change?
-
-
-----
-
-## 8. Button 6 "Reverse-a-string"
-
-__As visitor I expect see a button that__
+__As visitor I expect see a button for displaying the last result and the button for reset all results__
 
 ### Repo
 
-developed on a branch called `06-reset` by `Olga`
+developed on a branch called `05-display-reset` by `Olga`
 
 ### What change?
 
-
+- Check correct work all buttons
+- The last finishing touches
 
 ----
-
-
 
 ## Finishing Touches
 
-- Write final, complete README:
+- Write final, complete README
 - Validate code to check for any last mistakes
