@@ -12,7 +12,7 @@ function divide(x, y) {
   if (typeof x !== 'number') { throw new TypeError('x'); }
   if (typeof y !== 'number') { throw new TypeError('y'); }
 
-  const result = _;
+  const result = x / y;
 
   if (typeof result !== 'number') { throw new TypeError('result'); }
   return result;
@@ -83,9 +83,15 @@ function divideHandler() {
 
   // read a number from the user
 
+  const inputDiv1= prompt('Please enter first number for divide');
+  const numDiv1 =  Number(inputDiv1);
+
+  const inputDiv2= prompt('Please enter second number for divide');
+  const numDiv2 = Number(inputDiv2);
+
 
   // divide the last result by the user's number and reassign lastResult
-  _;
+  lastResult = divide(numDiv1, numDiv2);
   console.log('lastResult (after):', typeof lastResult, '\n', lastResult);
 
   alert(`the new result is: ${lastResult}`);
