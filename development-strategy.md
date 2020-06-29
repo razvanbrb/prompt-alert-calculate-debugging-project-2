@@ -104,7 +104,7 @@ developed on a branch called `04-divide` by `Olga`
 
 ### What change?
 
-
+- Create a function-handler for button divide
 
 ----
 
