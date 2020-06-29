@@ -50,8 +50,6 @@ developed on a branch called `css` by `Razvan`
 - Add css properties for buttons
 - Add margin property  the buttons
 
-
-
 ----
 
 ## 3. Button "Add"
@@ -64,7 +62,7 @@ developed on a branch called `add` by `Razvan`
 
 ### What change?
 
-- Create a function hadler so that the user can input 2 numbers
+- Create a function handler so that the user can input 2 numbers
 
 ----
 
@@ -78,7 +76,7 @@ developed on a branch called `02-substract` by `Razvan`
 
 ### What change?
 
-- Create a function substracthadler so that the user can substract 2 numbers
+- Create a function substract-handler so that the user can substract 2 numbers
 
 ----
 
@@ -92,7 +90,7 @@ developed on a branch called `03-multiply` by `Olga`
 
 ### What change?
 
-
+- Create a function-handler for button multiply
 
 ----
 
